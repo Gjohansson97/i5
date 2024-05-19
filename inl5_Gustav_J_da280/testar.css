@@ -1,0 +1,66 @@
+h1
+{
+    color: black;
+}
+h2
+{
+    background-color: lightgray;
+    color: black;
+}
+h3
+{
+    background-color: lightgray;
+    color: black;
+}
+h4
+{
+    color: black;
+    background-color: lightgray;
+    font-style: italic;
+}
+.navbar a{
+    color: black;
+    text-align: center;
+}
+.navbar ul{
+    list-style: none;
+    background-color: lightgray;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar li{
+    float: left;
+
+}
+section{
+    text-align: left;
+    color: black;
+    background-color: lightgray;
+    border: 1px;
+    
+
+}
+aside
+{
+    background-color: lightgrey;
+    width: 300px;
+    border: 1px solid green;
+    padding: 20px;
+    margin: 20px;
+    float: right;
+    height: 120px;
+    
+}
+footer
+{
+    border: 10px;
+    padding: 10px;
+}

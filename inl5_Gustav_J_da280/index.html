@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Min författare</title>
+    <!-- Länkar till den externa CSS-filen för att tillämpa stilregler -->
+    <link rel="stylesheet" href="testar.css">
+</head>
+<body>
+    <!-- Sidhuvud som innehåller webbplatsens namn och navigationsmeny -->
+    <header>
+        <section>
+            <h1>Min Webbplats</h1>
+        </section>    
+        <nav class="navbar">
+            <!-- Oordnad lista som representerar navigationsmenyn -->
+            <ul>
+                <li><a href="index.html">Startsida</a></li>
+                <li><a href="frågor.html">Om CSS</a></li>
+                <li><a href="författare.html">Om mig</a></li>
+                <li><a href="ovrigt.html">Övrigt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Huvudinnehåll för sidan -->
+    <main>
+        <section>
+            <article>
+            <h2>Inline CSS och externa stilmallar</h2>
+            <p>Skillnaden mellan "inline" CSS och externa stilmallar är hur stilar tillämpas på HTML-elementen.
+                Med "inline" CSS skrivs stilar direkt i HTML-koden med hjälp av style-attributet på varje element.
+                Externa stilmallar innebär att stilar definieras i en separat CSS-fil och länkas till HTML-dokumentet.
+
+                Fördelarna med "inline" CSS inkluderar snabb och enkel implementering för små ändringar samt hög specifikitet
+                för att åsidosätta andra stilar. Nackdelarna inkluderar svårigheter med underhåll och hantering av repetitiv kod,
+                samt att det bryter mot principen om separation av bekymmer.
+                
+                Fördelarna med externa stilmallar inkluderar återanvändbarhet,
+                bättre struktur i koden och enklare underhåll eftersom stilar kan uppdateras på ett ställe.
+                Nackdelarna innefattar initial ökad laddningstid och ibland svårare felsökning av specifika stilar.
+                
+                Sammanfattningsvis används "inline" CSS för mindre,
+                specifika ändringar och snabb testning, medan externa stilmallar passar bättre för större projekt där struktur 
+                och underhåll är viktigt.</p>
+        </article>
+        </section>
+    </main>
+        <aside>
+            <h3>Nyhetsbrev</h3>
+            <label for="namn">Skriv ditt namn:</label>
+            <input type="name" name="namn" id="namn" placeholder="Ditt namn">
+            <br>
+            <label for="epost">Skriv din email</label>
+            <input type="email" name="epost" id="epost" placeholder="Din E-post">
+
+            <button>Skicka</button>
+        </aside>
+    <footer>
+        <p>&copy; 2024 Min Webbplats</p>
+    </footer>
+</body>
+</html>
